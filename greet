@@ -1,0 +1,12 @@
+function viva(input) {
+    // read the input
+    let firstname = input[0];
+    let lastname = input[1];
+    let age = input[2];
+    let town = input[3];
+    // get the result
+    let result = `You are ${firstname} ${lastname}, a ${age}-years old person from ${town}`;
+    // log
+    console.log(result);
+}
+viva(["Veselina", "Sarieva", "17", "Bansko"]);

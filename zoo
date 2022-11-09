@@ -1,0 +1,10 @@
+function zoo(input) {
+    let kotki = Number(input[0]);
+    let cenakotki = kotki * 4;
+    let kucheta = Number(input[1]);
+    let cenakucheta = kucheta * 4;
+    let pari = cenakotki + cenakucheta + "lv";
+    console.log(pari);
+
+}
+zoo(["5", "4"]);

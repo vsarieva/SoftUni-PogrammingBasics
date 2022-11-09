@@ -1,0 +1,9 @@
+function ozelenqvane(input) {
+    let kvm = Number(input[0]);
+    let cena = kvm * 7.61
+    let otstupka = cena * 0.18;
+    let kraina = cena - otstupka;
+    console.log('The discount is ${otstupka} lv');
+    console.log(`The price is ${kraina} lv.`);
+}
+ozelenqvane(["150"]);

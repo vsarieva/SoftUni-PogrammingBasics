@@ -1,0 +1,12 @@
+function data(input) {
+    let name = input[0];
+    let lastname = input[1];
+    let age = input[2];
+    let town = input[3];
+
+    let result = (`I am ${name}, ${lastname} and I am ${age} from ${town}`);
+    console.log(result);
+
+
+}
+data(["Veselina", "Sarieva", "17", "Bansko"])
